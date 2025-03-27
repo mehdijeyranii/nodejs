@@ -1,1 +1,4 @@
-console.log("Welcome to the World of Node.js!");
+const add = require("./sum");
+
+const result = add(5, 10);
+console.log(result);
